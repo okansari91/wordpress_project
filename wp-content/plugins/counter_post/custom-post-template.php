@@ -52,7 +52,6 @@ get_header();
                 ?>
                 <br>
                 <input type="button" value="<?php _e('Hit to Increment', 'counter_post'); ?>" class="submit_button"  id="<?php the_id(); ?>">
-                <!--<input type="button" value="<?php __('Hit to Increment'); ?>" class="submit_button"  id="<?php the_id(); ?>">-->
                 <span id="hit_count" style="font-size: 50px; color: green;"><?php _e($counter_variable, 'counter_post'); ?></span>
                 <br>
                 <?php
